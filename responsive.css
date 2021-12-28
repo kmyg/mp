@@ -1,6 +1,6 @@
 @media all and (max-width: 1000px) {
     .wrapper {
-        width: 380px;
+        width: 400px;
     }
 
     .img-area{
@@ -12,7 +12,11 @@
         box-shadow: 0px 6px 12px var(--lightbshadow);
       }
     
-      #pc {
+      .background-image {
+        max-height: 660px;
+      }
+
+      #pc, .top-bar {
         display: none;
       }
 
