@@ -279,9 +279,6 @@ ul li.playing{
 }
 .controls{
   margin: 40px 0 5px 0;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .controls i{
@@ -298,21 +295,17 @@ ul li.playing{
   margin: 0 auto;
 }
 
-#prev{
+.controls #prev{
   margin-right: 13px;
   font-size: 43px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-top: 5px;
 }
-#next{
+.controls #next{
   margin-left: 13px;
   font-size: 43px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-top: 5px;
 }
-.play-pause{
+.controls .play-pause{
   height: 54px;
   width: 54px;
   display: flex;
