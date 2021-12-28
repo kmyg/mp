@@ -40,7 +40,6 @@ body{
 }
 .wrapper{
   width: 760px;
-  height: 550px;
   padding: 25px 30px;
   overflow: hidden;
   position: relative;
@@ -343,7 +342,7 @@ ul li.playing{
   position: absolute;
 }
 
-#sp, #more-music.material-icons {
+#sp {
   display: none;
 }
 
