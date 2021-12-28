@@ -40,6 +40,7 @@ body{
 }
 .wrapper{
   width: 760px;
+  height: 550px;
   padding: 25px 30px;
   overflow: hidden;
   position: relative;
@@ -80,6 +81,7 @@ input[type="range"] {
   outline: none; 
   height: 1px; 
   width: 10%; 
+  /* background: linear-gradient(90deg, var(--grey) 50%, var(--white) 50%); */
   border-radius: 10px; 
   border: 0; 
 }
